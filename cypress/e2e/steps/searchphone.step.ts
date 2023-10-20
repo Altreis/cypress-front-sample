@@ -1,11 +1,5 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
 
-import infomedoPage from './src/pages/checkPhoneNumberPage'
-
-Given('I go to the Infomed page', function () {
-  this.browser = new infomedoPage()
-  this.browser.load()
-})
 
 Given('I fill the search input with the {string} term on the Search Engine page', function (text: string) {
   this.browser.fillSearch(text)
