@@ -7,3 +7,7 @@ When('Page loaded', function () {
 Then('I check the phone element exists', function () {
     this.browser.checkPhoneElement()
 })
+
+Then('I check the phone number exists', function () {
+  this.browser.checkPhoneNumber()
+})
