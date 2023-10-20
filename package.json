@@ -4,7 +4,7 @@
   "description": "BDD, Cypress + Cucumber + Typescript",
   "main": "",
   "scripts": {
-    "cypress:open": "cypress open --e2e -b chrome"
+    "cypress:open": "npm cache clear --force & cypress open --e2e -b chrome"
   },
   "keywords": [
     "BDD",

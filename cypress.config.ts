@@ -23,7 +23,7 @@ export default defineConfig({
   'viewportWidth': 1920,
   'viewportHeight': 1080,
   e2e: {
-    specPattern: '**/*.feature',
+    specPattern: ['cypress//**/*.{feature,features,test.js}'],
     setupNodeEvents,
   },
 })
