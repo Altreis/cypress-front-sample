@@ -7,4 +7,4 @@ Feature: Search phone number on the Infomed website
   @smoke
   Scenario: Check phone element and number
     When Page loaded
-    Then I check the phone element
+    Then I check the phone element exists

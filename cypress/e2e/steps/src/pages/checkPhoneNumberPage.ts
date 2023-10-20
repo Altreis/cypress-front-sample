@@ -1,23 +1,23 @@
 
 
 export default class infomedoPage {
-  private _url = 'https://www.grupoinfomed.es/'
+  private url = 'https://www.grupoinfomed.es/'
 
-  private _inputSearch = '#search_form_input_homepage'
-  private _btnSearch = '#search_button_homepage'
-  private _resultSearch = '#links'
+  private phoneElement = 'https://www.grupoinfomed.es/wp-content/themes/grupoinfomed/_images/marcalatsup.jpg'
 
   load(): void {
-    cy.visit(this._url)
+    cy.visit(this.url)
     cy.get('body').should('be.visible')
   }
 
   checkPhoneElement(text: string): void {
-    cy.get(this._inputSearch).should('be.visible').type(text)
+    cy.get('[src="' + this.phoneElement + '"]')
+      .should('exist')
   }
 
   checkPhoneNumber(): void {
-    cy.get(this._btnSearch).should('be.visible').click()
+    cy.get('[src="' + this.phoneElement + '"]')
+    .should('exist')
   }
 
 }

@@ -4,6 +4,6 @@ When('Page loaded', function () {
   this.browser.load()
 })
 
-Then('I check the phone element', function () {
-    console.log()
+Then('I check the phone element exists', function () {
+    this.browser.checkPhoneElement()
 })
