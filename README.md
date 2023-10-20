@@ -4,7 +4,6 @@
 
 Basic example of using Cypress with Cucumber (BDD). 
 
-
 # Get started
 
 ## Installation
@@ -21,4 +20,6 @@ Open **`Cypress`** and run the tests manually:
 npm run cypress:open
 ```
 
+# Results
 
+![image info](ejecution.jpg)

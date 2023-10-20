@@ -24,5 +24,4 @@ export default class infomedoPage {
     cy.get('a[href="tel:' + this.phoneNumber + '"]')
       .should('exist')
   }
-
 }
