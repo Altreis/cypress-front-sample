@@ -1,10 +1,12 @@
 
 
 export default class infomedoPage {
+  private contactElements = require('../../../../fixtures/contactElements.json')
+
   private url = 'https://www.grupoinfomed.es/'
 
-  private phoneElement = 'https://www.grupoinfomed.es/wp-content/themes/grupoinfomed/_images/marcalatsup.jpg'
-  private phoneNumber = '902104422'
+  private phoneElement = this.contactElements.phoneElement
+  private phoneNumber = this.contactElements.phoneNumber
 
   load(): void {
     cy.visit(this.url)
