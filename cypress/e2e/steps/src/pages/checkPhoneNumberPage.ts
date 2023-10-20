@@ -2,8 +2,9 @@
 
 export default class infomedoPage {
   private contactElements = require('../../../../fixtures/contactElements.json')
+  private env = require('../../../../env/env.json')
 
-  private url = 'https://www.grupoinfomed.es/'
+  private url = this.env.mainPage
 
   private phoneElement = this.contactElements.phoneElement
   private phoneNumber = this.contactElements.phoneNumber
