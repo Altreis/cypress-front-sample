@@ -1,3 +1,5 @@
+const contactElements = require('cypress/fixtures/contactElements.json');
+
 export default class infomedoPage {
   private _url = 'https://www.grupoinfomed.es/'
 
