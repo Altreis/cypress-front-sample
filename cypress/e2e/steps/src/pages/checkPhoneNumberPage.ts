@@ -12,17 +12,12 @@ export default class infomedoPage {
     cy.get('body').should('be.visible')
   }
 
-  fillSearch(text: string): void {
+  checkPhoneElement(text: string): void {
     cy.get(this._inputSearch).should('be.visible').type(text)
   }
 
-  search(): void {
+  checkPhoneNumber(): void {
     cy.get(this._btnSearch).should('be.visible').click()
   }
 
-  resultText(callback: (text: string) => void): void {
-    cy.get(this._resultSearch, { timeout: 20000 }).then(($elem) => {
-      callback($elem.text())
-    })
-  }
 }
