@@ -16,9 +16,7 @@ npm install
 
 Open **`Cypress`** and run the tests manually:
 
-```bash
-npm run cypress:open
-```
+Use the npm script to open Cypress
 
 # Results
 
