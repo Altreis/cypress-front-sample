@@ -4,14 +4,7 @@
   "description": "BDD, Cypress + Cucumber + Typescript",
   "main": "",
   "scripts": {
-    "cypress:open": "cypress open",
-    "pretest": "rm -rf cypress/screenshots cypress/videos",
-    "test": "cypress run",
-    "tag:smoke": "cypress run --env tags='@smoke'",
-    "lint:eslint": "eslint .",
-    "lint:tsc": "tsc --noEmit",
-    "lint": "npm run lint:eslint; npm run lint:tsc",
-    "lint:fix": "npm run lint:eslint -- --fix"
+    "cypress:open": "cypress open --e2e -b chrome"
   },
   "keywords": [
     "BDD",
