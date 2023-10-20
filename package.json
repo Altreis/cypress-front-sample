@@ -22,11 +22,11 @@
     "typescript"
   ],
   "author": {
-    "name": "Erik Ccanto",
-    "email": "ccanto.erik@gmail.com",
-    "url": "https://github.com/eccanto"
+    "name": "Andres Nicolau",
+    "email": "andresnicolaucarrubba@gmail.com",
+    "url": "https://github.com/Altreis"
   },
-  "license": "MIT",
+  "license": "-",
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.1.5",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
