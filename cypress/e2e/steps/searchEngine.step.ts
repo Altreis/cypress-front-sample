@@ -1,9 +1,9 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
 
-import DuckDuckGoPage from './src/pages/DuckduckgoPage'
+import infomedoPage from './src/pages/checkPhoneNumberPage'
 
-Given('I go to the Duckduckgo page', function () {
-  this.browser = new DuckDuckGoPage()
+Given('I go to the Infomed page', function () {
+  this.browser = new infomedoPage()
   this.browser.load()
 })
 

@@ -2,7 +2,7 @@
 Feature: Search engine on the Duckduckgo website
 
   Background:
-    Given I go to the Duckduckgo page
+    Given I go to the Infomed page
     And I see "DuckDuckGo" in the title
 
   @smoke

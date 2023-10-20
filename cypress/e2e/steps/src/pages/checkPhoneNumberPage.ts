@@ -1,5 +1,5 @@
-export default class DuckduckgoPage {
-  private _url = 'https://duckduckgo.com/'
+export default class infomedoPage {
+  private _url = 'https://www.grupoinfomed.es/'
 
   private _inputSearch = '#search_form_input_homepage'
   private _btnSearch = '#search_button_homepage'
